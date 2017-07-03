@@ -16,15 +16,15 @@
     </head>
     <body>
 
-        <div data-role="page">
+        <div class="app" data-role="page">
             <div data-role="header">
 
                 <a href="index.html" data-inline="true" style="color: #df2727; width:330px; padding-bottom: 20px; padding-top: 20px; font-size: 20px;" data-role="button" class="ui-btn ui-icon-arrow-l ui-btn-icon-left">REGISTRARSE</a>         
                 <hr/>
-                <div class="menuss" style="margin-top: 15px; position: absolute; top: 60px;" >
-                    <button type="button" style="width: 110px;" id="btnMenun" >platillos</button>     
-                    <button type="button" style="width: 110px;" id="btnMenub">Bebidas</button>   
-                    <button type="button" style="width: 110px;" id="btnMenup" >Postres</button>                 
+                <div class="menuss" style="margin-top: 15px; position: absolute; top: 60px;left: 6px;" >
+                    <button type="button" style="width: 130px;BACKGROUND: red; color: white;font-size: 14px;" id="btnMenun" >platillos</button>     
+                    <button type="button" style="width: 130px; BACKGROUND: red; color: white;font-size: 14px;" id="btnMenub">Bebidas</button>   
+                    <button type="button" style="width: 130px; BACKGROUND: red; color: white;font-size: 14px;" id="btnMenup" >Postres</button>                 
 
                 </div>
             </div>
@@ -32,9 +32,9 @@
             <div data-role="main" class="ui-content" style="margin-top: 70px; color:white" >
 
                 <div>
-                    <table class="table" id="tablajson" style="font-size:25px; color:blue;background:cornsilk;">
+                    <table class="table" id="tablajson" style="font-size:22px; color:blue;background:cornsilk;">
                         <thead>
-                            <tr style="    font-size: 16px;">
+                            <tr style="    font-size: 18px;">
                                 <th>Codigo</th>
                                 <th>Nombre</th>
                                 <th>Precio</th>
@@ -42,12 +42,12 @@
                                 <th>Acccion</th>
                             </tr>
                         </thead>
-                        <tbody style="    font-size: 25px;">;
+                        <tbody style="    font-size: 22px;">;
                     </table>
 
                 </div>
             </div>
-            <div class="footer" style="margin-top: 470px;width: 380px; margin-left: 7px;">
+            <div class="footer" style="margin-top: 350px;width: 380px; margin-left: 7px;">
                 <a href="registrarPlato.php"  name="guardar" id="guardare"  value="AGREGAR" class="ui-btn">AGREGAR</a>
             </div>
             <script type="text/javascript" src="js/ListarPlato.js"></script>  

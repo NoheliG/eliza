@@ -24,17 +24,17 @@
 
                 <form class="form" style="" action="#" method="post">
                     <label id="texto" >Nombre del Restaurante</label>
-                    <input   type="text" id="nombre_restaurante" maxlength="20" name="nombre_restaurante" required="required" />
+                    <input type="text" style=" width: 360px;" id="nombre_restaurante" maxlength="20" name="nombre_restaurante" required="required" />
                     <label id="texto" >N° RUC</label>
-                    <input  type="number" id="ruc" name="ruc"  oninput="if(value.length>11)value=value.slice(0,11)"  required="required" />
+                    <input  type="number" style=" width: 360px;" id="ruc" name="ruc"  oninput="if(value.length>11)value=value.slice(0,11)"  required="required" />
                     <label id="texto" >Telefono</label>
-                    <input  type="number" id="telefono"oninput="if(value.length>9)value=value.slice(0,9)"  name="telefono"  maxlength="9" required="required" />
+                    <input  type="number" style=" width: 360px;" id="telefono"oninput="if(value.length>9)value=value.slice(0,9)"  name="telefono"  maxlength="9" required="required" />
                     <label id="texto">Correo</label>
-                    <input  type="text"   id="correo_restaurante" maxlength="35"  name="correo_restaurante" required="required" />
+                    <input  type="text" style=" width: 360px;" id="correo_restaurante" maxlength="35"  name="correo_restaurante" required="required" />
                     <label id="texto">Usuario</label>
-                    <input  type="text" id="nombre_usuario" maxlength="20" name="nombre_usuario" required="required" />
+                    <input  type="text" style=" width: 360px;" id="nombre_usuario" maxlength="20" name="nombre_usuario" required="required" />
                     <label id="texto" >Contrase&ntilde;a</label>
-                    <input  type="password" id="clave" maxlength="20" name="clave" required="required" />
+                    <input  type="password" style=" width: 360px;" id="clave" maxlength="20" name="clave" required="required" />
 
                     <div class="btn1"  style="float: none; width: 300px; margin-left: 30px;">       
                         <a data-inline="true" class="ui-btn" name="guardar2" id="guardar2" style=" float: none; margin-bottom: 10px">GUARDAR</a>     

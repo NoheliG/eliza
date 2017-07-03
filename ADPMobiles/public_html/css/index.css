@@ -1,17 +1,4 @@
-/*body{
-     background-image:url("../images/fondo.jpg");
-    -webkit-touch-callout: none;                 prevent callout to copy image, etc when tap to hold 
-    -webkit-text-size-adjust: none;              prevent webkit from resizing text to fit 
-    -webkit-user-select: none;                   prevent copy paste, to allow, change 'none' to 'text' 
- background-attachment:fixed;
-    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
-    height:100%;
-    margin:0px;
-    padding:0px;
-    text-transform:uppercase;
-    width:100%;
-}*/
+
 body {
     background: url("../images/fondo.jpg");
 
@@ -146,3 +133,5 @@ a{text-decoration:none}
     -moz-border-radius: 28;
     border: 0px;
 }
+
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {width: 0px;}

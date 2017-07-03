@@ -18,7 +18,7 @@ $(document).ready(function () {
                 dataType: 'json',
                 success: function (json) {
                     console.log(JSON.stringify(json.Data));
-                    alert("Bienvenida   (" + json.Data.usuario + ")");
+                    alert("Bienvenida");
                     location.href = "menuprincipal.php";
                     
                 },

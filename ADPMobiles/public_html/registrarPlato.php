@@ -22,13 +22,13 @@
 
                 <form class="form" action="#" method="post">
                     <label id="texto">Nombre</label>
-                    <input class="inp" id="nombre_plato" type="text" maxlength="20" name="nombre_plato" required="required" />
+                    <input class="inp" style=" width: 360px;" id="nombre_plato" type="text" maxlength="20" name="nombre_plato" required="required" />
                     <label id="texto">Desripci&oacute;n</label>
-                    <input class="inp" id="descrip_plato" type="text" maxlength="35" name="descripcion_plato" required="required" />
+                    <input class="inp" style=" width: 360px;" id="descrip_plato" type="text" maxlength="35" name="descripcion_plato" required="required" />
                     <label id="texto">Precio</label> 
-                    <input class="inp" id="precio" type="number" name="precio_plato" oninput="if(value.length>2)value=value.slice(0,2)" required="required" />
+                    <input class="inp" style=" width: 360px;" id="precio" type="number" name="precio_plato" oninput="if(value.length>2)value=value.slice(0,2)" required="required" />
                     <label id="texto">Stock</label><br/>
-                    <input type="number" class="inp" id="stock" oninput="if(value.length>2)value=value.slice(0,2)" name="stock_plato" required="required">               
+                    <input type="number" class="inp" style=" width: 360px;" id="stock" oninput="if(value.length>2)value=value.slice(0,2)" name="stock_plato" required="required">               
                     <div class="btn1"  style="float: none; width: 300px; margin-left: 30px;">       
                         <a data-inline="true" class="ui-btn" name="guardar2" id="aceptar" style=" float: none; margin-bottom: 10px">GUARDAR</a>     
                     </div>

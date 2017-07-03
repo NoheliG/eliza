@@ -24,9 +24,9 @@
          <div data-role="main" class="ui-content" style="margin-top: 150px;" >
             
                 <form  class = "form" accion="#" method="post">
-                 <input class="inp" id="nombre_usuario" type="text" name="nombre_usuario" placeholder="Usuario" required="required"/>
+                 <input class="inp" style=" width: 360px;" id="nombre_usuario" type="text" name="nombre_usuario" placeholder="Usuario" required="required"/>
                  <p id="contenido"></p>
-                 <input class="inp" id="clave" type="password" name="clave" placeholder="Contrasena"required="required" /><br/>
+                 <input class="inp" style=" width: 360px;" id="clave" type="password" name="clave" placeholder="Contrasena"required="required" /><br/>
                  <a style="color:white; text-decoration:none;" href="#"><h3 style="margin-left: 15px;margin-top: 20px;">HAZ OLVIDADO LA CONTRASE&Ntilde;A?</h3></a>
                     <div class="btn1" style="margin-top: 100px; float: none; width: 300px; margin-left: 30px;">       
                      <a data-inline="true" class="ui-btn" name="aceptar" id="aceptar" style=" float: none; margin-bottom: 10px">ACEPTAR</a>     
